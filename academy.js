@@ -161,3 +161,11 @@ function getBoard() {
     
     return globalBoard;
 }
+
+module = module || {};
+module.exports = {
+    takeTurn: takeTurn,
+    checkWinner: checkWinner,
+    resetGame: resetGame,
+    getBoard: getBoard,
+}
